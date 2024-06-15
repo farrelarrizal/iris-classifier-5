@@ -1,0 +1,16 @@
+FROM python:3.9.9-slim-buster
+
+# set directory
+WORKDIR /home
+
+COPY ./requirements.txt .
+
+RUN pip install -r requirements.txt
+
+# choose port
+EXPOSE 8000
+
+CMD ["fastapi", "run", "src/backend.py"]
+
+# docker build -t iris-backend .
+# docker run -p 8000:8000 iris-backend
