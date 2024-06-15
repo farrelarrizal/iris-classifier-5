@@ -4,7 +4,7 @@ import time
 
 st.image('assets/header-iris.png')
 st.title('Iris Classifier App')
-st.markdown('*Created by Farrel Arrizal | Batch May 2024*')
+st.markdown('*Created by Farrel Arrizal | Batch May 2024* | Last Deploy: 15 June 2024')
 st.divider()
 
 st.markdown('Just type the value, and get the result :sunglasses: 😭')
